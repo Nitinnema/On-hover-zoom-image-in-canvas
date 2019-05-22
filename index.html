@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+      <head>
+      	   <meta charset="utf-8">
+           <meta http-equiv="X-UA-Compatible" content="IE=edge>
+           <title> GETTING ZOOM THE IMAGE</title>
+           <meta name="description" content="An intractive getting started guide for brackets">
+           <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+           <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+           <script src="jquery-2.2.3.min.js"></script>
+
+           <script src="js/jqzoom.js"></script>
+          </head>
+          <body>
+          	<div id="wrapper">
+
+          	 <ul id="bzoom">
+
+          	 <li>
+                <img class="bzoom_thumb_image" src="images/01.png" title="first img" />
+                <img class="bzoom_big_image" src="images/01.png"/>
+            </li>
+
+            <li>
+                <img class="bzoom_thumb_image" src="images/02.png" title="first img" />
+                <img class="bzoom_big_image" src="images/02.png"/>
+            </li>
+
+            <li>
+                <img class="bzoom_thumb_image" src="images/03.png" title="first img" />
+                <img class="bzoom_big_image" src="images/03.png"/>
+            </li>
+
+            <li>
+                <img class="bzoom_thumb_image" src="images/04.png" title="first img" />
+                <img class="bzoom_big_image" src="images/04.png"/>
+            </li>
+
+            <li>
+                <img class="bzoom_thumb_image" src="images/05.png" title="first img" />
+                <img class="bzoom_big_image" src="images/05.png"/>
+            </li>
+
+        </ul>
+        <script type="text/javascript">
+        $("#bzoom").zoom({
+	zoom_area_width: 300,
+    autoplay_interval :3000,
+    small_thumbs : 5,
+    autoplay : false
+});
+</script>
+
+    </div>
+ </body>
+            
+            <div class="bzoom_wrap">
+       
+ 
+ </html>
+
+
+
+
+
+
+
+
+
+
+            
